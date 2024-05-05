@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transport Company</title>
+    <style>
+        /* CSS for the webpage */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .transport-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .transport {
+            width: 30%;
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+        form {
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section>
+        <div class="transport-container">
+            <div class="transport">
+                <img src="https://via.placeholder.com/150" alt="Transportation Type">
+                <h3>Truck</h3>
+                <p>Description of truck transportation...</p>
+                <p>Rate: $0.50/mile</p>
+                <p>Distance: 50 miles</p>
+            </div>
+            <div class="transport">
+                <img src="https://via.placeholder.com/150" alt="Transportation Type">
+                <h3>Train</h3>
+                <p>Description of train transportation...</p>
+                <p>Rate: $0.30/mile</p>
+                <p>Distance: 100 miles</p>
+            </div>
+            <div class="transport">
+                <img src="https://via.placeholder.com/150" alt="Transportation Type">
+                <h3>Ship</h3>
+                <p>Description of ship transportation...</p>
+                <p>Rate: $0.20/mile</p>
+                <p>Distance: 200 miles</p>
+            </div>
+        </div>
+    </section>
+
+    <form>
+        <h2>Contact Us</h2>
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Message"></textarea>
+        <input type="submit" value="Send">
+    </form>
+
+    <footer>
+        &copy; 2024 Transport Company. All Rights Reserved.
+    </footer>
+
+    <!-- JavaScript can go here if needed -->
+</body>
+</html>
